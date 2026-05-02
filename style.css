@@ -8,6 +8,9 @@
 body {
   background-color: #f4f4f4;
   color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -34,7 +37,8 @@ header h1 {
 main {
   width: 90%;
   max-width: 1000px;
-  margin: auto;
+  margin: 0 auto;
+  flex: 1;
 }
 
 main h2 {
@@ -86,4 +90,10 @@ button {
 
 button:hover {
   background-color: #005fcc;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
 }
