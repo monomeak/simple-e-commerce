@@ -1,0 +1,24 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Environment files (if you add later)
+.env
+
+# Node (only if you later add npm)
+node_modules/
+
+# Build / dist (future-proof)
+dist/
+build/
+
+# Coverage (if you add testing later)
+coverage/
